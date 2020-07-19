@@ -1,0 +1,19 @@
+{
+    "name": "dima/mvc-frameworks",
+    "description": "Testing MVC frameWork with PSR",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dima Taran",
+            "email": "taran_da@ukr.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+
+
+        }
+
+    }
+}
