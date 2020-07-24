@@ -1,0 +1,21 @@
+index:
+  path: /
+  controller: Taran\Controller\IndexController
+  methods: ['GET']
+  defaults: { _action: 'run' }
+
+foo:
+  path: /foo/{name}
+  controller: Taran\Controller\FooController
+  methods: ['GET']
+  defaults: { _action: 'run' }
+  requirements:
+    name: '\w+'
+
+foo_alias:
+  path: /foo_alias/{name}
+  controller: Taran\Controller\FooController
+  methods: ['GET']
+  defaults: { _action: 'run' }
+  requirements:
+    name: '\w+'
